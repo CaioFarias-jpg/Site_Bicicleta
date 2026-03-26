@@ -1,0 +1,29 @@
+.Area-Principal{
+    background-color: rosybrown;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.area-img-main{
+    width: 50%;
+    background-color: none;
+}
+
+.area-titulo{
+    width: 50%;
+}
+
+#img-main{
+    height: 500px;
+    width: 60%;
+}
+
+.titulo-site{
+    font-size: 62px;
+    color: var(--cor-letra-titulo);
+    font-weight: 800;
+    text-align: center;
+}
