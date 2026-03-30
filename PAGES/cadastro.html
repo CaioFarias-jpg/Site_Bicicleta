@@ -6,7 +6,7 @@
     <title>BIKE 544</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-<body>
+<body class="cadastro"> 
     <header class="Menu">
         <nav class="nav-bar">
             <a href="../index.html" class="box-logo">
@@ -30,7 +30,66 @@
              <a href="login.html"><button class="btn" id="login">LOGIN</button></a>
         </nav>
     </header>
-    
+    <div class="box-cadastro">
+        <form action="">
+            <fieldset>
+            <legend><span> Formulario de Clientes </span></legend>
+             <div class="area-formulario">
+
+                
+                <div class="input-box">
+                    <input type="text" name="nome" id="nome" class="InputUser" required>
+                    <label for="nome" class="LabelInput">Nome Completo</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="email" id="email" class="InputUser" required>
+                    <label for="email" class="LabelInput">email</label>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="telefone" id="telefone" class="InputUser" required>
+                    <label for="telefone" class="LabelInput">telefone</label>
+                </div>
+                <div class="genero">
+                    <p>Sexo:</p>
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="feminino" value="feminino" required>
+                        <label for="feminino">feminino</label>
+                    </div>
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="masculino" value="masculino" required>
+                        <label for="masculino">masculino</label>
+                    </div>
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="outros" value="outros" required>
+                        <label for="outros">outros</label>
+                    </div>
+                </div>
+                <div class="data-nascimento">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="cidade" id="cidade" class="InputUser" required>
+                    <label for="cidade" class="LabelInput">cidade</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="estado" id="estado" class="InputUser" required>
+                    <label for="estado" class="LabelInput">Estado</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="endereço" id="endereço" class="InputUser" required>
+                    <label for="endereço" class="LabelInput">Endereço</label>
+                </div>
+
+            
+
+                <input type="button" value="ENVIAR" name="submit" id="submit">
+
+             </div>
+
+            </fieldset>
+        </form>
+    </div>
     <footer>
         <div class="footer-itens">
             <span class="copyright">
