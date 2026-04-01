@@ -6,7 +6,7 @@
 @import url('menu.css');
 @import url('index.css');
 @import url('cadastro.css');
-
+@import url(contato.css);
 
 :root{
   --cor-menu:rgb(50, 74, 92);
