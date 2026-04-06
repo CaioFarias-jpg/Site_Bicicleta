@@ -1,0 +1,116 @@
+.login{
+    background-color: brown;
+    display: flex;
+    max-height: 100vh;
+}
+
+.area-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area-login-foto{
+    width: 50%;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.area-login-foto img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.area-login-form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.area-login-form form{
+    width: 400px;
+    height: 600px;
+    background-color: cornflowerblue; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-login{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 12, 42);
+    padding: 5px;
+}
+
+.area-inputs-login{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.label-login{
+    font-size: 1.4rem;
+    color: bisque;
+}
+
+.input-login{
+    border: none;
+    outline: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+.area-itens-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.area-contato{
+    display: flex;
+}
+
+area-contato input{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.area-itens-login p a{
+    color: aliceblue;
+}
+
+.btn-login{
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    width: 150px;
+    margin: auto;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.area-logar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-icons-login{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.area-icons-login img{
+    height: 20px;
+}
